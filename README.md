@@ -1,5 +1,6 @@
 Simple TypeScript project setup for VS Code.
 
+0. Install TypeScript with npm: "npm install -g typescript"
 1. Create a tsconfig.json file which contains the TypeScript settings for the project. Could be done by running "tsc --init" in the terminal in the project folder.
 
 2. Compile (transpile) the ts-files into js-files. Could be done by "tsc filename.ts" in terminal.
