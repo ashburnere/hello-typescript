@@ -7,7 +7,7 @@ Simple TypeScript project setup for VS Code.
 
 3. Execute Run Build Task (Ctrl+Shift+B) in VS Code to compile all.
 
-4. Run the code by node "filename.ts" in terminal or by pressing F5 in VS Code which launches a program by the it's launch.json settings.
+4. Run the code by node "filename.js" in terminal or by pressing F5 in VS Code which launches a program by the it's launch.json settings.
 
 See also:
 https://code.visualstudio.com/docs/typescript/typescript-compiling
