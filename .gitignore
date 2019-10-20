@@ -1,0 +1,14 @@
+# ide
+.vscode
+
+# libraries
+node_modules
+
+#logs
+npm-debug.log
+
+# build
+!generate-browser.js
+**/*.js
+**/*.js.map
+**/*.d.ts
