@@ -16,10 +16,10 @@ export class PasswordValidator implements StringValidator {
             if (!isNaN(Number(character))) {
                 containsNumber = true;
             }
-            if (character == character.toUpperCase()) {
+            else if (character == character.toUpperCase()) {
                 containsUpperCase = true;
             }
-            if (character == character.toLowerCase()) {
+            else if (character == character.toLowerCase()) {
                 containsLowerCase = true;
             }
             if (containsLowerCase && containsUpperCase && containsNumber) {
